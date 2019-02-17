@@ -32,10 +32,10 @@ void loop() {
     {dirflag=0;
       }
       if(dirflag==0)
-      {dutyup+=10;
+      {dutyup++;
         }
         else if(dirflag==1)
-        {dutyup-=10;
+        {dutyup--;
           }
     
   
