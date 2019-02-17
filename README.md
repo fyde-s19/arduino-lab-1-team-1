@@ -12,6 +12,7 @@ When lowering the frequency in step four, what is going wrong? Brainstorm some s
 
 Two Arduino Sketches:
 Part 3's blinking sequence - 
+      
       void setup() {
         // put your setup code here, to run once:
         pinMode(LED_BUILTIN, OUTPUT);
