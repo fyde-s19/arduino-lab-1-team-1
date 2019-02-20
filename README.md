@@ -34,7 +34,7 @@ Part 3's blinking sequence -
 
 Part 4 with the fading dimmer code -
 
-
+```
 int dutyup=0;
   int dirflag=0;
   int freq=100;
@@ -79,4 +79,4 @@ void loop() {
    
   
    }
-
+```
