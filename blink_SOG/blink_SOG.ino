@@ -1,6 +1,7 @@
 
 int dutyup=0;
   int dirflag=0;
+  int freq=100;
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
@@ -24,7 +25,7 @@ void dimmer(int freq, int duty){
   }
 // the loop function runs over and over again forever
 void loop() {
-    dimmer(100, dutyup);
+    dimmer(freq, dutyup);
     if(dutyup==100&&dirflag==0)
     {dirflag=1;
     }
@@ -37,6 +38,7 @@ void loop() {
         else if(dirflag==1)
         {dutyup--;
           }
-    
+ 
+   
   
    }
